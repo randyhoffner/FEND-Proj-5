@@ -1,7 +1,7 @@
 #FEND Nanodegree Neighborhood Map Project No. 5
 ##Map of Ashland, Oregon
 
-Locatd in the southern end of Oregon's Rogue Valley, Ashland is a delightful combination of mountain village and one of the most  sophisticated small towns in America.  One reason for the sophistication is the  world famous Oregon Shakespeare Festival, which has been a part of Ashland for more than 75 years. 
+Located in the southern end of Oregon's Rogue Valley, Ashland is a delightful combination of mountain village and one of the most  sophisticated small towns in America.  One reason for the sophistication is the  world famous Oregon Shakespeare Festival, which has been a part of Ashland for more than 75 years. 
 
 ###Overview
 
