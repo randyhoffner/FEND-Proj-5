@@ -8,7 +8,7 @@ This project uses the Google Maps API, the Yelp API, javascript, knockoutJS, and
 
 ###Repository Contents
 
-The gh-pages branch contains only the dist code files, so the project may be opened by browsing to http://randyhoffner.github.io/FEND-Proj-4 .
+The gh-pages branch contains only the dist code files, and the project may be opened by browsing to http://randyhoffner.github.io/FEND-Proj-5 .
 
 ###License
 
