@@ -1,0 +1,218 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Randy/Desktop/map-3-master/index.html",
+		"/D/thephoenix/index.html",
+		"/D/Ashland-Neighborhood-Map/js/main.js",
+		"/D/._04_Hello_Map_Quiz.html",
+		"/D/ashland/ashland.html",
+		"/D/Neighborhood-Map-master/js/app.js",
+		"/C/Users/Randy/Downloads/map-3-master/map-3-master/main.js",
+		"/C/Users/Randy/Desktop/onemoretime (2)/dist/index.html",
+		"/C/Users/Randy/Desktop/onemoretime (2)/src/index.html",
+		"/D/neighborhood map project 2 copy 2/js/main.js",
+		"/C/Users/Randy/Desktop/onemoretime/onemoretime.html",
+		"/C/Users/Randy/Downloads/map-3-master/map-3-master/style.css",
+		"/C/Users/Randy/Downloads/map-3-master/map-3-master/index.html",
+		"/D/neighborhood-map-master 3/dist/js/model.js",
+		"/D/somethingcompletelydifferent/css/style.css",
+		"/D/neighborhood map project 2 copy/js/main.js",
+		"/D/somethingcompletelydifferent/index.html",
+		"/C/Users/Randy/main.js",
+		"/D/neighborhood-map-master 3/src/index.html",
+		"/D/NeighborhoodMap-master/src/index.html",
+		"/D/NeighborhoodMap-master/src/js/app.js",
+		"/C/Users/Randy/fend-p4-wip/gulpfile.js",
+		"/C/Users/Randy/fend-p4-wip/views/css/style.css",
+		"/C/Users/Randy/fend-p4-wip/css/style.css",
+		"/C/Users/Randy/fend-p4-wip/css/print.css",
+		"/D/frontend-nanodegree-mobile-portfolio-gh-pages wip/views/css/style.css",
+		"/C/Users/Randy/Downloads/style.css",
+		"/C/Users/Randy/Downloads/main.js",
+		"/D/new/main.js",
+		"/D/neighborhood-map-master 3/dist/js/._model.js",
+		"/D/neighborhood-map-master 3/src/js/._model.js",
+		"/C/Users/Randy/Downloads/NeighborhoodMap-master/NeighborhoodMap-master/dist/index.html",
+		"/D/map-project-master  sample/src/css/style.css",
+		"/E/neighborhood map project 2/index.html",
+		"/D/jqueryknockout/knockout-3.4.0.js",
+		"/D/04_Hello_Map_Quiz.html",
+		"/D/map-project-master  sample/src/index.html",
+		"/D/ud864-master/LICENSE",
+		"/D/04_Hello_Map_Quiz 4.html",
+		"/C/Users/Randy/Desktop/example repos/frontend-nanodegree-mobile-portfolio-master/frontend-nanodegree-mobile-portfolio-master/views/js/main.js",
+		"/C/Users/Randy/Desktop/example repos/ndp4-gh-pages/ndp4-gh-pages/views/js/main.min.js",
+		"/D/src/views/js/main.js",
+		"/D/frontend-nanodegree-mobile-portfolio-master downloaded tue 6 28/views/js/main.js",
+		"/D/README.md",
+		"/C/Users/Randy/test.js",
+		"/C/Users/Randy/Desktop/example repos/ndp4-gh-pages/ndp4-gh-pages/views/pizza.html",
+		"/D/frontend-nanodegree-mobile-portfolio-gh-pages wip/views/js/main.js",
+		"/C/Users/Randy/Desktop/index.html",
+		"/D/old/main.js",
+		"/C/Users/Randy/Desktop/url.htm",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Randy/Desktop/js/resumeBuilder.js",
+		"/E/output.min.js(1).txt",
+		"/C/Users/Randy/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
