@@ -13,7 +13,7 @@ The main branch of this repo contains a "source code" directory named src, which
 
 To run the project locally using either the src or dist  code, download the appropriate folder and run index.html in a browser.  To run in a local server, open a Mac Terminal window or a windows PowerShell window, navigate to the appropriate directory, and run Python SimpleHTTPServer.  Then open a second window, navigate to the same directory, and run Ngrok to provide a local IP address to run the app in a browser.
 
-The gh-pages branch contains only the dist code files, so the project may be opened by browsing to http://randyhoffner.github.io/FEND-Proj-4 .
+The gh-pages branch contains only the dist code files, so the project may be opened by browsing to http://randyhoffner.github.io/FEND-Proj-5 .
 
 ###License
 
