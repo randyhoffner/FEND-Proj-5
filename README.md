@@ -1,6 +1,7 @@
-#Neighborhood Map Project Live Site
+#FEND Nanodegree Neighborhood Map Project No. 5
+##Map of Ashland, Oregon
 
-Located in the southern end of Oregon's Rogue Valley, Ashland is a delightful combination of mountain village and one of the most  sophisticated small towns in America.  One reason for the sophistication is the  world famous Oregon Shakespeare Festival, which has been a part of Ashland for more than 75 years. 
+Locatd in the southern end of Oregon's Rogue Valley, Ashland is a delightful combination of mountain village and one of the most  sophisticated small towns in America.  One reason for the sophistication is the  world famous Oregon Shakespeare Festival, which has been a part of Ashland for more than 75 years. 
 
 ###Overview
 
@@ -8,7 +9,11 @@ This project uses the Google Maps API, the Yelp API, javascript, knockoutJS, and
 
 ###Repository Contents
 
-The gh-pages branch contains only the dist code files, and the project may be opened by browsing to http://randyhoffner.github.io/FEND-Proj-5 .
+The main branch of this repo contains a "source code" directory named src, which contains all files needed to run the project.  The html, css, and main.js files in src are not minified, so that all code and commentary may be easily read.  The "production code" directory, dist, contains the same code as src, but with html, css, and main.js files minified for faster loading.  The html file was validated using the  w3.org html validator; the css file was validated to CSS Level 3 using the w3.org jigsaw validator; and main.js was validated using piliap.com/javascript-validator/.
+
+
+
+The gh-pages branch contains only the dist code files, and the project may be opened by browsing to http://randyhoffner.github.io/FEND-Proj-4 .
 
 ###License
 
