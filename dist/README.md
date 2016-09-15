@@ -11,9 +11,9 @@ This project uses the Google Maps API, the Yelp API, javascript, knockoutJS, and
 
 The main branch of this repo contains a "source code" directory named src, which contains all files needed to run the project.  The html, css, and main.js files in src are not minified, so that all code and commentary may be easily read.  The "production code" directory, dist, contains the same code as src, but with html, css, and main.js files minified for faster loading.  The html file was validated using the  w3.org html validator; the css file was validated to CSS Level 3 using the w3.org jigsaw validator; and main.js was validated using piliap.com/javascript-validator/.
 
-To run the project locally using either the src or dist  code, download the appropriate folder and run index.html in a browser.  To run in a local server, open a Mac Terminal window or a windows PowerShell window, navigate to the appropriate directory, and run Python SimpleHTTPServer.  Then open a second window, navigate to the same directory, and run Ngrok to provide a local IP address to run the app in a browser.
 
-The gh-pages branch contains only the dist code files, so the project may be opened by browsing to http://randyhoffner.github.io/FEND-Proj-4 .
+
+The gh-pages branch contains only the dist code files, and the project may be opened by browsing to http://randyhoffner.github.io/FEND-Proj-4 .
 
 ###License
 
