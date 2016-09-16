@@ -5,7 +5,7 @@ var mapZoom;
 
 
 function initMap() {
-	'use strict';
+    'use strict';
     if (window.innerWidth < 730) {
         mapZoom = 12;
     } else {
@@ -99,7 +99,7 @@ function initMap() {
 // Call Yelp Search API; returns information about 20
 // Ashland locations.
 function callYelp() {
-		'use strict';
+    'use strict';
 
     //Nonce generator to generate a random number.
     function nonce_generate() {
@@ -174,7 +174,7 @@ callYelp();
 
 //Create markers for locations returned by Yelp api.
 function createMarker() {
-	"use strict";
+    "use strict";
     locations.forEach(function(place) {
 
 
@@ -270,7 +270,7 @@ function createMarker() {
 
 
 function openInfowindow(place, marker) {
-	'use strict';
+    'use strict';
     //Information to fill infowindow.
     var infowindowHtml = '<div id="infoWindow">' +
         '<div class = "place-name">' + place.name + '</div>' +
@@ -303,7 +303,7 @@ function toggleBounce(marker) {
 
 //Store information for location places.
 function Place(dataObj) {
-	'use strict';
+    'use strict';
     this.name = dataObj.name;
     this.location = dataObj.location;
     this.id = dataObj.id;
@@ -326,8 +326,6 @@ ko.bindingHandlers.autoComplete = {
         var options = settings.options;
 
         var updateElementValueWithLabel = function(event, ui) {
-
-            //event.preventDefault();
 
 
             $(element).val(ui.item.label);
@@ -391,3 +389,9 @@ var ViewModel = function() {
 $("#place-toggle").click(function() {
     $("#place-list").toggle();
 });
+
+//Error message to dispay if Google Map API fails to load.
+function initMapLoadError() {
+    alert("Google Map API failed to load.");
+
+}
