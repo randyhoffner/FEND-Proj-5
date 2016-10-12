@@ -112,7 +112,8 @@ function callYelp() {
     var parameters = {
         location: 'ashland+oregon',
         oauth_consumer_key: 'bJ6MqThUNog4U8vA25ZD5Q',
-        oauth_token: 'OZWne-Ax7iRaccvd7uoAjnohr2-eh-u9',
+        
+        oauth_token: 'kdsam105QhoSYRTdmgFHWMUjLYCCsHMm',
         oauth_nonce: nonce_generate(),
         oauth_timestamp: Math.floor(Date.now() / 1000),
         oauth_signature_method: 'HMAC-SHA1',
@@ -122,8 +123,8 @@ function callYelp() {
 
     //Generate OAuth 1.0a authentication signature.
     //oauth-signature.min.js from github.com/bettiolo/oauth-signature-js
-    //Long strings are Consumer Secret and Token Secrete respectively.
-    var encodedSignature = oauthSignature.generate('GET', yelp_url, parameters, 'L2veuSo8hUYFu77i2bFX3fqsm0c', 'uFqQIfacltRZEzKNvet6LEwgW7Y');
+    //Long strings are Consumer Secret and Token Secret respectively.
+    var encodedSignature = oauthSignature.generate('GET', yelp_url, parameters, 'L2veuSo8hUYFu77i2bFX3fqsm0c', 'ELQp5Y1lLmrVi3fR21-ROJYP54w');
     parameters.oauth_signature = encodedSignature;
 
     var settings = {

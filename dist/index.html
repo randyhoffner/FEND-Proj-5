@@ -1,1 +1,54 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="theme-color" content="#ff0000"><link rel="apple-touch-icon" href="img/appletouch.png"><title>Map of Ashland, Oregon</title><link rel="stylesheet" href="css/style.css"><link rel="shortcut icon" type="image/ico" href="img/favicon.ico"><link rel="icon" sizes="192x192" href="img/hires.png"><link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/ios-ipad-144x144.png"><link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/ios-iphone-114x114.png"><link rel="apple-touch-icon-precomposed" href="img/ios-default-homescreen-57x57.png"></head><body><div id="map"></div><input id="s-input" class="controls" type="search" placeholder="Search" data-bind="textInput: query, autoComplete:{selected: selectedOption, options:options}"/><ul><li id="autoSearch"></li></ul><div class="list-view"><button id="place-toggle">***Places***</button><ul id="place-list" data-bind="foreach: search()"><li id="place" data-bind="click: marker.click, event:{mouseover: marker.changeColor, mouseout: marker.resetColor}"><div id="info"><h4 id="place-name" data-bind="text: name">x</h4><p id="address" data-bind="text: address"></p></div></li></ul></div><script src="js/jquery-3.1.0.min.js"></script><script src="js/jquery-ui.min.js"></script><script src="js/knockout-3.4.0.js"></script><script src="js/oauth-signature.min.js"></script><script src="js/main.js"></script><script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCuK_JoNsCdkOK3fgDmjkhD3PTcORhHdno&v=3&callback=initMap" async defer onerror="initMapLoadError()"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#ff0000">
+	<link rel="apple-touch-icon" href="img/appletouch.png">
+	<title>Map of Ashland, Oregon</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" type="image/png" href="img/RH.png">
+	<link rel="icon" sizes="192x192" href="img/hires.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/ios-ipad-144x144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/ios-iphone-114x114.png">
+	<link rel="apple-touch-icon-precomposed" href="img/ios-default-homescreen-57x57.png">
+
+</head>
+
+<body>
+
+	<div id="map"></div>
+	<input id="s-input" class="controls" type="search" placeholder="Search" data-bind="textInput: query, autoComplete: {selected: selectedOption, options:options}" />
+	<ul>
+
+		<li id="autoSearch"></li>
+	</ul>
+	<div class="list-view">
+
+		<button id="place-toggle">***Places***</button>
+
+		<ul id="place-list" data-bind="foreach: search()">
+
+			<li id="place" data-bind="click: marker.click, event: {mouseover: marker.changeColor, mouseout: marker.resetColor}">
+				<div id="info">
+					<h4 id="place-name" data-bind="text: name">x</h4>
+					<p id="address" data-bind="text: address"></p>
+				</div>
+			</li>
+		</ul>
+
+	</div>
+
+
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/knockout-3.4.0.js"></script>
+	<script src="js/oauth-signature.min.js"></script>
+	<script src="js/main.js"></script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCuK_JoNsCdkOK3fgDmjkhD3PTcORhHdno&v=3&callback=initMap" async defer onerror="initMapLoadError()">
+	</script>
+</body>
+
+</html>
